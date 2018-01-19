@@ -11,14 +11,100 @@
         android:layout_margin="4dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <TextView
-            android:linksClickable="true"
-            android:text="@string/text_information"
-            android:id="@+id/text_1"
-            android:textColor="@color/gray_100"
-            android:textSize="18sp"
-            android:gravity="center"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:linksClickable="true"
+                android:text="@string/text_information"
+                android:id="@+id/text_1"
+                android:textColor="@color/gray_100"
+                android:textSize="22sp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_below="@id/text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/q_1"
+                    android:id="@+id/q_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/a_1"
+                    android:id="@+id/a_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/q_2"
+                    android:id="@+id/q_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/a_2"
+                    android:id="@+id/a_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/q_3"
+                    android:id="@+id/q_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/a_3"
+                    android:id="@+id/a_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/q_4"
+                    android:id="@+id/q_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/a_4"
+                    android:id="@+id/a_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/q_5"
+                    android:id="@+id/q_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="18sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/a_5"
+                    android:id="@+id/a_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
     </ScrollView>
 </RelativeLayout>
