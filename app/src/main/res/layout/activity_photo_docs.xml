@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@color/orange_50"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.acherniakovich.android.docs.PhotoDocs">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/photo_docs_back"
+                android:layout_margin="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/back"/>
+            <!--<RelativeLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                &lt;!&ndash;<ImageView
+                    android:id="@+id/photo_docs_info"
+                    android:layout_margin="5dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_gravity="end"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/info"/>&ndash;&gt;
+            </RelativeLayout>-->
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="@color/gray_100"
+                    android:text="@string/upload_photo"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:gravity="center"
+                    android:text="@string/photo_license"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/photo_docs_image_license"
+                    android:src="@drawable/screen_license"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp" />
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:gravity="center"
+                            android:text="@string/photo_driver_root"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:id="@+id/photo_docs_image_driver_root"
+                            android:src="@drawable/screen_driver_root"
+                            android:layout_margin="5dp"
+                            android:layout_gravity="center"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:gravity="center"
+                            android:text="@string/photo_driver_root_reverce"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:id="@+id/photo_docs_image_root_reverse"
+                            android:src="@drawable/screen_driver_root_reverse"
+                            android:layout_margin="5dp"
+                            android:layout_gravity="center"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp" />
+                    </LinearLayout>
+                </TableRow>
+                <TableRow
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:gravity="center"
+                            android:text="@string/photo_STS"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:id="@+id/photo_docs_image_sts"
+                            android:src="@drawable/screen_sts"
+                            android:layout_margin="5dp"
+                            android:layout_gravity="center"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:gravity="center"
+                            android:text="@string/photo_driver_translate"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <ImageView
+                            android:id="@+id/photo_docs_image_root_translation"
+                            android:src="@drawable/screen_translate"
+                            android:layout_margin="5dp"
+                            android:layout_gravity="center"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp" />
+                    </LinearLayout>
+                </TableRow>
+                <ImageButton
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/button_upload_photo"
+                    android:layout_gravity="center"
+                    android:src="@drawable/next_two"
+                    android:background="@drawable/roundedbutton_two"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </ScrollView>
+
+</FrameLayout>

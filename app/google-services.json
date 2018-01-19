@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "585529915599",
+    "firebase_url": "https://yandextaxi-60f3b.firebaseio.com",
+    "project_id": "yandextaxi-60f3b",
+    "storage_bucket": "yandextaxi-60f3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585529915599:android:08fdf13f6372d86e",
+        "android_client_info": {
+          "package_name": "com.example.alex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585529915599-sjl1ufckbud0ie1imatr1q8uvv1v6o7q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alex",
+            "certificate_hash": "1007549abc549a3a7d35cde4b7d1bb87423703bc"
+          }
+        },
+        {
+          "client_id": "585529915599-c2k8p8pgp0dltqu0tcdko2ukch502m1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDT-Hyh0FYF1Rgurmn6kXo0EiQ54ykoDOc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585529915599-c2k8p8pgp0dltqu0tcdko2ukch502m1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
