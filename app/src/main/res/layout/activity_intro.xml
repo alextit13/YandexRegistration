@@ -29,14 +29,6 @@
             android:src="@drawable/intro_image"
             android:layout_width="match_parent"
             android:layout_height="100dp" />
-        <TextView
-            android:textColor="@color/gray_100"
-            android:textSize="20sp"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:text="@string/moscow"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
         <ProgressBar
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
